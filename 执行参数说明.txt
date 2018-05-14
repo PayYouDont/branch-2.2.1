@@ -1,0 +1,12 @@
+参数说明：
+
+<urlDir>：包括URL列表的文本文件，它是一个已存在的文件夹。
+
+[-dir <d>]：Nutch保存爬取记录的工作目录，默认情况下值为：./crawl-[date]，其中[date]为当前目期。
+
+[-threads <n>]：Fetcher线程数，覆盖默认配置文件中的fetcher.threads.fetch值（默认为10）。
+
+[-depth <i>]：Nutch爬虫迭代的深度，默认值为5。
+
+[-topN <num>]：限制每一次迭代中的前N条记录，默认值为 Integer.MAX_VALUE。
+{depth=3, threads=10, topN=5, seedDir=urls}
